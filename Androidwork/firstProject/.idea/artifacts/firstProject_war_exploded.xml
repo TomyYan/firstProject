@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="firstProject:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/firstProject_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="firstProject/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="firstProject" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-5.1.39-bin" />
+          <element id="file-copy" path="D:/tomcat/lib/servlet-api.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
